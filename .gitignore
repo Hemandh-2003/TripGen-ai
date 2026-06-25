@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment Variables
+.env
+**/.env
+
+# Build Files
+dist/
+build/
+client/dist/
+server/dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime Files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# PM2
+.pm2/
+
+# Coverage
+coverage/
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Optional
+.cache/
