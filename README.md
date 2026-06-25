@@ -178,7 +178,7 @@ tripgen-ai
 ## Clone Repository
 
 ```bash
-git clone https://github.com/Hemandh-2003/tripgen-ai.git
+git clone https://github.com/Hemandh-2003/TripGen-ai.git
 
 cd tripgen-ai
 ```
