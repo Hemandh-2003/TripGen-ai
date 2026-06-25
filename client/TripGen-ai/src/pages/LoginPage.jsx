@@ -243,7 +243,7 @@ const LoginPage = () => {
                 </div>
 
                 <a
-                    href="http://localhost:8000/api/auth/google"
+                    href="/api/auth/google"
                     className="flex justify-center"
                 >
                     <div className="bg-white hover:bg-gray-100 transition p-3 rounded-full shadow-lg cursor-pointer">

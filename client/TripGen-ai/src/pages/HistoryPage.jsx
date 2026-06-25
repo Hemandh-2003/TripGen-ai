@@ -95,7 +95,7 @@ const HistoryPage = () => {
 
             const response =
                 await axios.get(
-                    `http://localhost:8000/api/itinerary/download/${id}`,
+                    `/api/itinerary/download/${id}`,
                     {
                         responseType: "blob",
                         headers: {

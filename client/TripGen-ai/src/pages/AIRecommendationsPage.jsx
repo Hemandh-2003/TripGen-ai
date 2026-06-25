@@ -92,7 +92,7 @@ const AIRecommendationsPage = () => {
 
             const response =
                 await axios.get(
-                    `http://localhost:8000/api/itinerary/download/${savedItinerary._id}`,
+                    `/api/itinerary/download/${savedItinerary._id}`,
                     {
                         responseType: "blob",
                         headers: {

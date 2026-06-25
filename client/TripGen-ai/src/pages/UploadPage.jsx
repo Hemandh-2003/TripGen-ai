@@ -71,7 +71,7 @@ const UploadPage = () => {
 
             const { data } =
                 await axios.post(
-                    "http://localhost:8000/api/upload",
+                    "/api/upload",
                     formData,
                     {
                         headers: {

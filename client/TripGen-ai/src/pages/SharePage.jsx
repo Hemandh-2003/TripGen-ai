@@ -325,7 +325,7 @@ const SharePage = () => {
                     )}
 
                     <a
-                        href={`http://localhost:8000/api/itinerary/share/download/${shareId}`}
+                        href={`/api/itinerary/share/download/${shareId}`}
                         target="_blank"
                         rel="noreferrer"
                         className="bg-purple-600 hover:bg-purple-700 px-5 py-3 rounded-xl"
